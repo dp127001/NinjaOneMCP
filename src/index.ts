@@ -158,17 +158,6 @@ const TOOLS = [
     }
   },
   {
-    name: 'get_device_software',
-    description: 'Get installed software for a specific device',
-    inputSchema: {
-      type: 'object',
-      properties: {
-        id: { type: 'number', description: 'Device ID' }
-      },
-      required: ['id']
-    }
-  },
-  {
     name: 'get_device_dashboard_url',
     description: 'Get the dashboard URL for a specific device',
     inputSchema: {
